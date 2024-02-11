@@ -4,8 +4,8 @@
     --main-font: 'Josefin Sans', sans-serif;
 
     --main-color: #FFFFFF;
-    --contrast-color: #EA4343;
-    --secondary-color: #D0CDD6;
+    --contrast-color: rgb(230, 195, 55);
+    --secondary-color: rgb(253, 246, 215);
     --main-background-color: #333232;
     --second-background-color: #3C3C3C;
 }
@@ -36,6 +36,12 @@ body {
 .fa-solid {
     color: var(--main-color);
     font-size: 3em;
+}
+
+.fa-brands:hover,
+.fa-solid:hover {
+    color: var(--contrast-color);
+    transform: scale(1.1);
 }
 
 .container__presentation {
