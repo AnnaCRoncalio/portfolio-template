@@ -125,7 +125,12 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 40em;
+    position: relative;
+}
+
+.section-about__me .about__me__content {
+    width: 30%;
+    position: relative;
 }
 
 .section-about__me .about__me__title {
