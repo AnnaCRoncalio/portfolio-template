@@ -1,6 +1,4 @@
 .section-projects {
-    height: 130vh;
-    width: 100vw;
     background-color: var(--second-background-color);
     display: flex;
     flex-direction: column;

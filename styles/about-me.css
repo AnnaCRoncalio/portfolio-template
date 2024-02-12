@@ -1,5 +1,4 @@
 .section-about__me {
-    height: 60vh;
     background-color: var(--second-background-color);
     display: flex;
     flex-direction: column;

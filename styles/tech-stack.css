@@ -1,6 +1,4 @@
 .section-tech__stack {
-    height: 70vh;
-    width: 100vw;
     background-color: var(--third-background-color);
     position: relative;
     display: flex;
