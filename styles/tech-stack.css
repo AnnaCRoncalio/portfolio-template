@@ -29,14 +29,17 @@
 
 
 @media screen and (min-width: 1728px) {
+    .section-tech__stack {
+        padding: 6em 0;
+    }
+
     .tech__stack__title {
         font-size: 48px;
         padding-bottom: 2em;
     }
 
     .tech__stack__list {
-        width: 30%;
-        gap: 3em;
+        gap: 3.5em;
     }
 
     .tech__stack__link {
@@ -59,7 +62,7 @@
     }
 
     .tech__stack__link .stack {
-        font-size: 90px;
+        font-size: 8em;
     }
 
     .tech__stack__link .stack:hover {

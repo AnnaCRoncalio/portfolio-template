@@ -49,13 +49,20 @@
 }
 
 @media screen and (min-width: 1728px) {
+    .section-projects {
+        padding: 6em;
+        text-align: left;
+    }
+    
     .projects__title {
         font-size: 48px;
+        text-align: center;
     }
 
     .container-projects {
         display: flex;
-        width: 60%;
+        padding-left: 5em;
+        padding-right: 5em;
     }
 
     .projects__image {
@@ -73,5 +80,10 @@
 
     .description__text {
         padding: 1em 0;
+    }
+
+    .projects__description .fa {
+        font-size: 35px;
+        padding-top: 0.5em;
     }
 }

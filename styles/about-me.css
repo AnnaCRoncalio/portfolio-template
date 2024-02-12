@@ -40,9 +40,8 @@
 }
 
 @media screen and (min-width: 1728px) {
-    .section-about__me .about__me__content {
-        width: 30%;
-        position: relative;
+    .section-about__me {
+        padding: 5em 0;
     }
 
     .section-about__me .about__me__title {
@@ -56,5 +55,9 @@
 
     .section-about__me .about__me__location {
         font-size: 20px;
+    }
+
+    .section-about__me .about__me__description {
+        margin: 0 33em;
     }
 }
