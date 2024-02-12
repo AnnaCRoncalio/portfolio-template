@@ -27,6 +27,15 @@
     color: var(--base-color);
 }
 
+@media screen and (min-width: 1024px) { 
+    .tech__stack__title {
+        font-size: 42px;
+    }
+
+    .tech__stack__link .stack {
+        font-size: 4em;
+    }
+}
 
 @media screen and (min-width: 1728px) {
     .section-tech__stack {
