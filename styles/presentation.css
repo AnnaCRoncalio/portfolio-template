@@ -79,13 +79,12 @@
 
 @media screen and (min-width: 1728px) {
     .section-presentation {
-        position: relative;
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        padding: 4em;
     }
 
     .sidebar {
-        position: absolute;
-        left: 0;
-        top: 35%;
         padding-left: 2em;
         display: flex;
         flex-direction: column;
@@ -105,10 +104,6 @@
     }
 
     .container__presentation {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         text-align: center;
     }
 
