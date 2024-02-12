@@ -44,12 +44,12 @@
         padding: 4em 0;
     }
 
-    .section-about__me .about__me__description {
-        margin: 0 12em;
-    }
-
     .section-about__me .about__me__title {
         font-size: 42px;
+    }
+
+    .section-about__me .about__me__description {
+        margin: 0 12em;
     }
 }
 
