@@ -1,6 +1,7 @@
 @import url("./about-me.css");
 @import url("./presentation.css");
 @import url("./tech-stack.css");
+@import url("./projects.css");
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
 
 :root {
@@ -9,7 +10,7 @@
     --main-color: #FFFFFF;
     --base-color: #000000;
     --contrast-color: rgb(230, 195, 55);
-    --secondary-color: rgb(253, 246, 215);
+    --secondary-color: #D0CDD6;
     --main-background-color: #333232;
     --second-background-color: #3C3C3C;
     --third-backgroud-color: #F6F6F6;
