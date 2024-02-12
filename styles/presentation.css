@@ -25,17 +25,17 @@
 
 .presentation__name {
     color: var(--contrast-color);
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
     margin: 0.5em 0;
 }
 
 .presentation__hello {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .presentation__job {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .container__buttons {
@@ -54,15 +54,15 @@
     border: 2px solid var(--contrast-color);
     border-radius: 5px;
     cursor: pointer;
-    padding: .7em;
+    padding: 1em;
 }
 
 .presentation__button .fa {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .presentation__button .button__title {
-    font-size: 13px;
+    font-size: 15px;
     font-family: var(--main-font);
     font-weight: 500;
 }

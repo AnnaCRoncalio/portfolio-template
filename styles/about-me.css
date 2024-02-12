@@ -2,38 +2,34 @@
     background-color: var(--second-background-color);
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     text-align: center;
-    position: relative;
-}
-
-.section-about__me .about__me__content {
-    width: 30%;
-    position: relative;
+    padding: 2.5em 1.5em;
 }
 
 .section-about__me .about__me__title {
     color: var(--contrast-color);
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
     padding-bottom: 1.2em;
 }
 
-.section-about__me .about__me__subtitle,
-.about__me__job {
-    font-size: 36px;
+.section-about__me .about__me__subtitle {
+    font-size: 26px;
     color: var(--main-color);
     font-weight: 500;
 }
 
 .section-about__me .about__me__job {
-    padding-top: 0.2em;
+    font-size: 22px;
+    padding-top: 0.4em;
+    color: var(--main-color);
+    font-weight: 500;
 }
 
 .section-about__me .about__me__location {
     color: var(--main-color);
-    font-size: 20px;
+    font-size: 18px;
     padding: 0.5em 0 2em 0;
 }
 
@@ -41,4 +37,24 @@
     color: var(--secondary-color);
     font-size: 18px;
     line-height: 1.5em;
+}
+
+@media screen and (min-width: 1728px) {
+    .section-about__me .about__me__content {
+        width: 30%;
+        position: relative;
+    }
+
+    .section-about__me .about__me__title {
+        font-size: 48px;
+    }
+
+    .section-about__me .about__me__subtitle,
+    .about__me__job {
+        font-size: 36px;
+    }
+
+    .section-about__me .about__me__location {
+        font-size: 20px;
+    }
 }
