@@ -55,6 +55,7 @@
     border-radius: 5px;
     cursor: pointer;
     padding: 1em;
+    color: var(--contrast-color);
 }
 
 .presentation__button .fa {
@@ -71,10 +72,6 @@
     color: var(--main-color);
     background-color: var(--contrast-color);
     margin-top: 3em;
-}
-
-.container__buttons .about {
-    color: var(--contrast-color);
 }
 
 @media screen and (min-width: 1024px) {
@@ -111,12 +108,12 @@
         font-size: 30px;
     }
 
-    .container__buttons .resume:hover {
+    .container__buttons .resume {
         color: var(--contrast-color);
         background-color: transparent;
     }
     
-    .container__buttons .about:hover {
+    .presentation__button:hover {
         color: var(--main-color);
         background-color: var(--contrast-color);
     }
