@@ -55,23 +55,27 @@
 
 @media screen and (min-width: 1728px) {
     .section-about__me {
-        padding: 8em 0;
+        height: 60vh;
     }
 
     .section-about__me .about__me__title {
         font-size: 48px;
     }
 
-    .section-about__me .about__me__subtitle,
-    .about__me__job {
+    .section-about__me .about__me__subtitle {
         font-size: 36px;
     }
 
+    .section-about__me .about__me__job {
+        font-size: 30px;
+    }
+
     .section-about__me .about__me__location {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .section-about__me .about__me__description {
-        margin: 0 33em;
+        font-size: 20px;
+        margin: 0 31em;
     }
 }
