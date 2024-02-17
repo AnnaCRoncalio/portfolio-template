@@ -4,7 +4,7 @@
 @import url("./styles/projects.css");
 @import url("./styles/contact.css");
 @import url("./styles/footer.css");
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
     --main-font: 'Josefin Sans', sans-serif;
